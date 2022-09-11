@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+header {
+    background-color: rgb(190, 190, 190);
+    width: 100%;
+    height: 70px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.title {
+    margin: 15px;
+    float: left;
+}
+
+.search {
+    margin: 25px 15px;
+    float: right;
+}
+
+.search-box {
+    margin-right: 5px;
+    float: left;
+}
+
+.search-icon {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    float: right;
+}
+
+main {
+    width: 100%;
+}
+
+.my-biodata {
+    background-color: rgb(175, 175, 175);
+    width: 98%;
+    height: 200px;
+    margin: 25px auto 10px;
+    border-radius: 5px;
+}
+
+.image {
+    margin-top: 23px;
+    margin-left: 115px;
+    margin-right: 115px;
+    float: left;
+}
+
+.image img {
+    width: 150px;
+    margin: auto;
+    border-radius: 75px;
+    margin: 2px auto;
+    overflow: hidden;
+}
+
+.biodata {
+    padding: 20px;
+    text-align: center;
+}
+
+.biodata h2 {
+    margin-bottom: 2px;
+}
+
+.biodata table {
+    text-align: left;
+}
+
+.Curicullum-Vitae {
+    background-color: rgb(175, 175, 175);
+    width: 98%;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.Curicullum-Vitae h2 {
+    text-align: center;
+}
+
+.education, .work {
+    background-color: white;
+    width: 48%;
+    height: 250px;
+    float: left;
+    margin: 5px 3px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.education h3, .work h3 {
+    margin-bottom: 5px;
+}
+
+.education h4, .work h4 {
+    margin-bottom: 1px;
+}
+
+.education p, .work p {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: rgb(190, 190, 190);
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
